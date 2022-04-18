@@ -22,17 +22,44 @@
         </div>
     </header>
     <div class="navegacao">
-        <div class="form">
+        <div class="formulario">
             <h3>Faça parte do nosso time</h3>
             <form action="/registro" method="POST">
-                <label for="nome" class="formulario">Nome</label>
+                <label for="nome" class="form">Nome</label>
                 <input type="text" name="nome" id="nome" required class="form2">
 
-                <label for="email" class="formulario">Email</label>
+                <label for="email" class="form">Email</label>
                 <input type="email" name="email" id="email" required class="form2">
 
-                <label for="telefone" class="formulario">Telefone</label>
+                <label for="telefone" class="form">Telefone</label>
                 <input type="tel" name="telefone" id="telefone" required class="form2">
+
+                <label for="departamentos" class="form">Departamentos</label>
+                <select name="departamentos" class="form2"></select>
+
+                <label class="form">Disponibilidade</label>
+
+                <div class="checkbox">
+                        <Label for="integral" class="form3">
+                            <input type="checkbox" id="integral" name="integral" value="Integral(8h)" class="flex">                            
+                            <span class="checkmark"></span>
+                            <h4>Integral(8h)</h4>
+                        </Label>
+                    
+                   
+                        <label for="meio" class="form3">
+                            <input type="checkbox" id="meio" name="meio" value="Meio período(4h)" class="flex">
+                            <span class="checkmark"></span>
+                            <h4>Meio período(4h)</h4>
+                        </label>
+                    
+                        <label for="freelancer" class="form3">
+                            <input type="checkbox" id="freelancer" name="freelancer" value="Freelancer" class="flex">
+                            <span class="checkmark"></span>
+                            <h4>Freelancer</h4>
+                        </label>
+                    
+                </div>
 
             </form>
         </div>

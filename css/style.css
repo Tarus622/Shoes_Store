@@ -56,7 +56,7 @@ line-height: 53px;
 color: #575757;
 }
 
-.form {
+.formulario {
     display: flex;
     justify-content: space-between;
     flex-direction: column ;
@@ -73,7 +73,7 @@ border: 1px solid #9B9B9B;
 box-sizing: border-box;
 }
 
-.formulario {
+.form {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -87,4 +87,61 @@ box-sizing: border-box;
 
 
     color: #9B9B9B;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    align-items: center;
+}
+
+.flex {
+    margin-top: 15px;
+}
+
+.form3 {
+display: flex;
+justify-content:flex-start;
+flex-direction: row;
+
+
+color: #777777;
+}
+
+.checkmark {
+    position: absolute;
+width: 17px;
+height: 17px;
+margin-top: 15px;
+background: #C4C4C4;
+}
+
+.form3:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.form3 input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+.form3 input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 16px;
+    margin-top: 16px;
+    margin-left: 2px;   
+    color: #777777
 }
