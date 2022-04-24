@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css\style.css">
 </head>
+
 <body>
     <header>
         <div class="cabecalho">
@@ -40,34 +42,62 @@
                 <label class="form">Disponibilidade</label>
 
                 <div class="checkbox">
-                        <Label for="integral" class="form3">
-                            <input type="checkbox" id="integral" name="integral" value="Integral(8h)" class="flex">                            
-                            <span class="checkmark"></span>
-                            <h4>Integral(8h)</h4>
-                        </Label>
-                    
-                   
-                        <label for="meio" class="form3">
-                            <input type="checkbox" id="meio" name="meio" value="Meio período(4h)" class="flex">
-                            <span class="checkmark"></span>
-                            <h4>Meio período(4h)</h4>
-                        </label>
-                    
-                        <label for="freelancer" class="form3">
-                            <input type="checkbox" id="freelancer" name="freelancer" value="Freelancer" class="flex">
-                            <span class="checkmark"></span>
-                            <h4>Freelancer</h4>
-                        </label>
-                    
+                    <Label for="integral" class="container">
+                        <input type="checkbox" id="integral" name="integral" value="Integral(8h)">
+                        <span class="checkmark"></span>
+                    </Label>
+                    <h4>Integral(8h)</h4>
+                    <label for="meio" class="container">
+                        <input type="checkbox" id="meio" name="meio" value="Meio período(4h)">
+                        <span class="checkmark"></span>
+                    </label>
+                    <h4>Meio período(4h)</h4>
+                    <label for="freelancer" class="container">
+                        <input type="checkbox" id="freelancer" name="freelancer" value="Freelancer">
+                        <span class="checkmark"></span>
+                    </label>
+                    <h4>Freelancer</h4>
+
                 </div>
+                <label class="form">Qual a melhor forma para entrarmos em contato com você?</label>
+                <div class="radio">
+                    <label for="email2" class="form4">
+                        <input type="radio" name="contato" id="email2" value="Email" class="flex2">
+                        <h4>Email</h4>
+                    </label>
+                    <label for="ligação" class="form4">
+                        <input type="radio" name="contato" id="ligaçao" value="Ligação" class="flex2">
+                        <h4>Ligação</h4>
+                    </label>
+                    <label for="whats" class="form4">
+                        <input type="radio" name="contato" id="whats" value="WhatsApp" class="flex2">
+                        <h4>WhatsApp</h4>
+                    </label>
+                </div>
+                <label for="message" class="form">Mensagem</label>
+                <textarea name="message" id="message" class="mensagem"></textarea>
+                <label for="file" class="file">Curriculo
+                    <input type="file" name="file" accept=".jpg" class="upload"> 
+                    <span class="upload_button"></span>
+                </label>
+
 
             </form>
         </div>
 
         <div class="text">
-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.<br> <br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+            eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum.<br><br>
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+            laborum.
         </div>
     </div>
-    
+
 </body>
+
 </html>
